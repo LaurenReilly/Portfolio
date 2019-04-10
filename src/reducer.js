@@ -1,5 +1,5 @@
 let intialState = {
-    stats: "skills"
+    stats: "Skills"
 }
 
 let reducer = (state = intialState, action) => {
@@ -7,17 +7,17 @@ let reducer = (state = intialState, action) => {
     if (type === "SKILLS") {
         return {
             ...state,
-            stats: "skills"
+            stats: "Skills"
         }
     } else if (type === "PROJECTS") {
         return {
             ...state,
-            stats: "projects"
+            stats: "Projects"
         }
     } else if (type === "ABOUT") {
         return {
             ...state,
-            stats: "about"
+            stats: "About"
         }
     } else {
         return {
