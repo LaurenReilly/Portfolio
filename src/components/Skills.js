@@ -51,7 +51,7 @@ popover = (i) => {
                                 <p className="text-center">Redux</p>
                             </div>
                         </OverlayTrigger>
-                        <OverlayTrigger trigger="click" placement="right" overlay={this.popover(2)}>
+                        <OverlayTrigger trigger="click" placement="top" overlay={this.popover(2)}>
                             <div className="m-1 skillIcon" style={{width: "30%"}}>
                                 <FontAwesomeIcon className="skill" size="4x" icon={['fab', 'js-square']}/>
                                 <p className="text-center">JavaScript</p>
@@ -69,7 +69,7 @@ popover = (i) => {
                                 <p className="text-center">Express.js</p>
                             </div>
                         </OverlayTrigger>
-                        <OverlayTrigger trigger="click" placement="right" overlay={this.popover(5)}>
+                        <OverlayTrigger trigger="click" placement="top" overlay={this.popover(5)}>
                             <div className="m-1 skillIcon" style={{width: "30%"}}>
                                 <FontAwesomeIcon className="skill" size="4x" icon="database"/>
                                 <p className="text-center">PostgreSQL</p>
@@ -87,7 +87,7 @@ popover = (i) => {
                                 <p className="text-center">Debugging</p>
                             </div>
                         </OverlayTrigger>
-                        <OverlayTrigger trigger="click" placement="right" overlay={this.popover(8)}>
+                        <OverlayTrigger trigger="click" placement="top" overlay={this.popover(8)}>
                             <div className="m-1 skillIcon" style={{width: "30%"}}>
                                 <FontAwesomeIcon className="skill" size="4x" icon={['fab', 'css3-alt']}/>
                                 <p className="text-center">CSS3</p>
@@ -99,13 +99,13 @@ popover = (i) => {
                                 <p className="text-center">HTML5</p>
                             </div>
                         </OverlayTrigger>
-                        <OverlayTrigger trigger="click" placement="right" overlay={this.popover(10)}>
+                        <OverlayTrigger trigger="click" placement="top" overlay={this.popover(10)}>
                             <div className="m-1 skillIcon" style={{width: "30%"}}>
                                 <FontAwesomeIcon className="skill" size="4x" icon={['fab', 'bootstrap']}/>
                                 <p className="text-center">Bootstrap</p>
                             </div>
                         </OverlayTrigger>
-                        <OverlayTrigger trigger="click" placement="right" overlay={this.popover(11)}>
+                        <OverlayTrigger trigger="click" placement="top" overlay={this.popover(11)}>
                             <div className="m-1 skillIcon" style={{width: "30%"}}>
                                 <FontAwesomeIcon className="skill" size="4x" icon="laptop-code"/>
                                 <p className="text-center">Learning</p>

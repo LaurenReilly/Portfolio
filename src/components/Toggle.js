@@ -5,11 +5,11 @@ import { connect } from 'react-redux';
 class Toggle extends Component {
     toggleStats = () => {
         if (this.props.stats === "Skills") {
-            this.props.about()
-        } else if (this.props.stats === "About") {
             this.props.projects();
-        } else if (this.props.stats === "Projects") {
+        } else if (this.props.stats === "About") {
             this.props.skills();
+        } else if (this.props.stats === "Projects") {
+            this.props.about()
         } else {
             return
         }
@@ -17,11 +17,11 @@ class Toggle extends Component {
 
     toggleStatsBack = () => {
         if (this.props.stats === "Skills") {
-            this.props.projects();
+            this.props.about();
         } else if (this.props.stats === "About") {
-            this.props.skills();
+            this.props.projects();
         } else if (this.props.stats === "Projects") {
-            this.props.about()
+            this.props.skills()
             
         } else {
             return

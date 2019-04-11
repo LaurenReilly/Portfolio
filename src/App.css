@@ -4,8 +4,9 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .label {
     font-family: 'Kumar One', cursive;
+    text-shadow: 1px 1px 1px lime;
 }
 
 .toggle {
@@ -49,4 +50,29 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom-right-radius: 5px;
     padding: .1em;
     text-align: center;
+}
+
+/* ==========Styling for project page========== */
+
+.project {
+    border: 2px solid lime;
+    border-radius: 2px;
+}
+
+.project:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+}
+
+a:active, a:hover {
+    transform: scale(1.2);
+    color: lime;
 }

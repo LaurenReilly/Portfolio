@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Toggle from './Toggle';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 class About extends Component {
     render () {
         return (
@@ -10,12 +10,31 @@ class About extends Component {
                     <h1 className="text-center mt-3">About</h1>
                     <Toggle direction="forward"/>
                 </div>
-                <div className="text-center m-2">
-                    <div className="rounded m-auto" style={{backgroundColor: "white", width: "80%", height: "400px"}}>
-                        <p className="text-center">Underwater Gardener</p>
-                        <p className="text-center">Cat Mom</p>
-                        <p className="text-center">Video Gamer</p>
-                        <p className="text-center">Nature Lover</p>
+                <ul className="">
+                    <li>Underwater Gardener</li>
+                    <li>Cat Mom</li>
+                    <li>Video Gamer</li>
+                    <li>Nature Lover</li>
+                </ul>
+                <h4 className="text-center mb-5">Contact Info:</h4>
+                <div className="d-flex flex-wrap text-center align-items-around">
+                    <div  className="mb-5" style={{width:"50%"}}>
+                        <a href="https://linkedin.com/in/laurenreillydev" target="blank">
+                            <FontAwesomeIcon size="4x" icon={['fab', 'linkedin']}/>
+                        </a>
+                    </div>
+                    <div className="mb-5" style={{width:"50%"}}>
+                        <a href="https://github.com/LaurenReilly" target="blank">
+                            <FontAwesomeIcon size="4x" icon={['fab', 'github-square']}/>
+                        </a>
+                    </div>
+                    <div style={{width:"50%"}}>
+                        <FontAwesomeIcon size="4x" icon="laptop"/>
+                        <p className="mt-3">LaurenReillyNet@gmail.com</p>
+                    </div>
+                    <div style={{width:"50%"}}>
+                        <FontAwesomeIcon size="4x" icon="mobile-alt"/>
+                        <p className="mt-3">407-252-1431</p>
                     </div>
                 </div>
             </div>
