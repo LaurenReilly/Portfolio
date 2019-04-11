@@ -1,4 +1,52 @@
 body {
     background-color: black;
     color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kumar One', cursive;
+}
+
+.toggle {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.toggle:hover {
+    transform: scale(1.2);
+    color: lime;
+    cursor: pointer;
+}
+
+/* ==========Styling for Skills Page============== */
+
+.skillIcon:hover {
+    transform: scale(1.1);
+    color: lime;
+    cursor: pointer;
+}
+
+.popover {
+    border: 2px solid lime;
+
+}
+
+.popover-header {
+    font-family: 'Kumar One', cursive;
+    background-color: white;
+    color: black;
+    border-bottom: none;
+    text-align: center;
+    padding: .3em;
+}
+
+.popover-body {
+    font-family: 'Abel', sans-serif;
+    background-color: white;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: .1em;
+    text-align: center;
 }

@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Avatar extends Component {
     render () {
         return (
-            <div className="rounded avatar" style={{border: "5px solid white", height: "600px", width:"400px"}}>
+            <div className="rounded avatar" style={{border: "1px solid lime", height: "600px", width:"400px"}}>
                 <div className="m-auto">
-                    <h1 className="text-center">Lauren Reilly</h1>
+                    <h1 className="text-center mt-3">Lauren Reilly</h1>
                     <p className="text-center">407-252-1431</p>
                     <p className="text-center">LaurenReillyNet@gmail.com</p>
                 </div>

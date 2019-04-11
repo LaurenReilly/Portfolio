@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Button from 'react-bootstrap/Button';
 
 import Skills from './Skills';
 import About from './About';
 import Projects from './Projects';
+
 
 //based on what type of stats the user has selected will return the button to toggle between about/skills/projects and the corresponding menu of stats.
 class Stats extends Component {
@@ -34,7 +34,6 @@ class Stats extends Component {
         }
         return (
             <div className="stats">
-                <Button onClick={() => this.toggleStats()}>{stats}</Button>
                 {information}
             </div>
         )
