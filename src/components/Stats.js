@@ -33,7 +33,7 @@ class Stats extends Component {
             information = null
         }
         return (
-            <div className="stats">
+            <div className="stats m-2">
                 {information}
             </div>
         )
