@@ -9,6 +9,20 @@ h1, h2, h3, h4, h5, h6, .label {
     text-shadow: 1px 1px 1px lime;
 }
 
+
+/* ==========Forward Toggle Arrow Animation=========== */
+@keyframes toggle{
+    0%{color: white;}
+    100%{color: lime; transform: scale(1.2);}
+}
+
+.forward {
+    animation-name: toggle;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+}
+
 .toggle {
     font-weight: bold;
     font-size: 3em;
@@ -19,6 +33,7 @@ h1, h2, h3, h4, h5, h6, .label {
     color: lime;
     cursor: pointer;
 }
+
 
 /* ==========Styling for Skills Page============== */
 

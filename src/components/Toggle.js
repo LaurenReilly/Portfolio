@@ -31,7 +31,7 @@ class Toggle extends Component {
     render() {
         if (this.props.direction === "forward") {
             return (
-                <h2 className="toggle ml-4 mt-4" onClick={() => this.toggleStats()}>&gt;</h2>
+                <h2 className="toggle forward ml-4 mt-4" onClick={() => this.toggleStats()}>&gt;</h2>
             )
         } else if (this.props.direction === "back") {
             return (
