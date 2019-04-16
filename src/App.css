@@ -25,7 +25,6 @@ h1, h2, h3, h4, h5, h6, .label {
 .skillIcon:hover {
     transform: scale(1.1);
     color: lime;
-    cursor: pointer;
 }
 
 .popover {
@@ -54,16 +53,6 @@ h1, h2, h3, h4, h5, h6, .label {
 
 /* ==========Styling for project page========== */
 
-.project {
-    border: 2px solid lime;
-    border-radius: 2px;
-}
-
-.project:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
 ul {
     list-style-type: none;
 }
@@ -73,6 +62,19 @@ a {
 }
 
 a:active, a:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     color: lime;
+}
+
+.projectAnchor {
+    display: inline-block;
+}
+
+.project {
+    border: 2px solid lime;
+    border-radius: 2px;
+}
+
+.project:hover {
+    cursor: pointer;
 }
