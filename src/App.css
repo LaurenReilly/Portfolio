@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6, .label {
     animation-name: toggle;
     animation-duration: 1s;
     animation-timing-function: linear;
-    animation-iteration-count: 5;
+    animation-iteration-count: 8;
 }
 
 .toggle {
@@ -76,7 +76,7 @@ a {
     color: white;
 }
 
-a:active, a:hover {
+a:active, a:hover, .aboutLinks:hover {
     transform: scale(1.1);
     color: lime;
 }
